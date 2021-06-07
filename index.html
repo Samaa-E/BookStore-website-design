@@ -1,0 +1,622 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>
+        Bookstore: Buy books online.
+    </title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="page-top" data-new-gr-c-s-check-loaded="14.983.0" cz-shortcut-listen="true">
+    <header id="home" class=" vh-100 ">
+        <!--loading screen-->
+        <div class="loading d-flex justify-content-center align-items-center position-absolute">
+            <div class="spinner-border spin" role="status">
+                <span class="sr-only ">Loading...</span>
+            </div>
+        </div>
+        <!-- navbar part-->
+        <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top navbar-reduce navbar-light bg-white py-0" id="mainNav">
+            <div class="container position-relative">
+                <a class="navbar-brand js-scroll" href="#home"><img src="images/logo.jpg" class="w-50" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="submit"><img src="images/44.svg" /></button>
+                    </form>
+                    <ul class="navbar-nav ml-auto py-3">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#author">Authors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#work">Best selling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#pricing">Member</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#contact">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-2 font-sans-bold text-xs uppercase mr-1 relative" href="cart.html">
+                                <img src="images/cart.svg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-2 font-sans-bold text-xs uppercase mr-1 relative" href="library.html">
+                                <img src="images/book-half.svg"></a>
+                        </li>
+
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                <img src="images/person-circle.svg">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html" target="_self">Login</a></li>
+                                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- first home-carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="layer">
+                        <div class="layer-cover d-flex justify-content-center align-items-center text-center text-white">
+                            <div class="s-content">
+                                <h1>Get Awesome.</h1>
+                                <h4 class="py-3">We are an online bookstore company providing newest books.</h4>
+                                <button type="button" class="btn mx-2 sp-btn">Buy Now</button>
+                                <button type="button" class="btn mx-2 sp-btn2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="layer2">
+                        <div class="layer-cover d-flex justify-content-center align-items-center text-center text-white">
+                            <div class="s-content  ">
+                                <h1>New Offers.</h1>
+                                <h4 class="py-3">We provided the cheapest books.</h4>
+                                <button type="button" class="btn  mx-2 sp-btn">Buy Now</button>
+                                <button type="button" class="btn  mx-2 sp-btn2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="layer3">
+                        <div class="layer-cover d-flex justify-content-center align-items-center text-center text-white">
+                            <div class="s-content  ">
+                                <h1>Change Your Mindset.</h1>
+                                <h4 class="py-3">Reading makes you smarter .</h4>
+                                <button type="button" class="btn  mx-2 sp-btn">Buy Now</button>
+                                <button type="button" class="btn  mx-2 sp-btn2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="position-absolute arrow">
+                <a class="carousel-control-prev position-relative" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="fas fa-long-arrow-alt-left position-relative" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next position-relative" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="fas fa-long-arrow-alt-right position-relative" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- ======= About Section ======= -->
+
+        <section id="about" class="about-mf paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(images/home4.jpg)">
+            <div class="overlay-itro">
+                <div class="intro-content display-table">
+                    <div class="table-cell">
+                        <div class="container d-flex justify-content-center flex-column align-items-center">
+                            <div class="row">
+                                <div class="col-xl-12 col-md-12 col-sm-12">
+                                    <div class="box-shadow-full bg-white">
+                                        <div class="row">
+                                            <div class="about-me pt-4 pt-md-0 bg-white">
+                                                <div class="title-box-2">
+                                                    <h6 class="mt-5">WHO WE ARE</h6>
+                                                </div>
+                                                <p class="py-4">We are a bookstore. We update website and <span class="ani">publish</span>
+                                                    <br> books for costumers around the world. Our readers are amazing.
+                                                </p>
+                                                <div class="pt-2 pb-5">
+                                                    <button type="button" class="btn btn-primary px-4 py-3 ">Read More</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+
+        <!-- ======= Author Section ======= -->
+        <section id="author">
+            <div class="container my-5">
+                <div class="title text-center">
+                    <h2 class="small" data-bigletter="C">Creative Authors</h2>
+                    <h4 class="sec-sub mx-auto">They are awesome thinkers</h4>
+                </div>
+                <div class="section-content pt-25 pb-25">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="author-member" data-animation="fadeInUp">
+                                <div class="author-image">
+                                    <img class="img-fluid" src="images/nagib.jpg" alt="Naguib Mahfouz">
+                                </div>
+                                <div class="author-overlay">
+                                    <div class="author-info">
+                                        <h4>Naguib Mahfouz</h4><span>Egyptian Novelist</span>
+                                        <ul class="author-social">
+                                            <li>
+                                                <a href="https://www.amazon.com/s?k=Naguib+Mahfouz&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.amazon.com/s?k=Naguib+Mahfouz&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="https://www.amazon.com/s?k=Naguib+Mahfouz&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="author-member" data-animation="fadeInUp" data-delay="300">
+                                <div class="author-image">
+                                    <img class="img-fluid" src="images/Mostafa.jpg" alt="Mostafa Mahmoud">
+                                </div>
+                                <div class="author-overlay">
+                                    <div class="author-info">
+                                        <h4>Mostafa Mahmoud</h4><span>Egyptian Doctor, Philosopher, and Author</span>
+                                        <ul class="author-social">
+                                            <li><a href="https://www.amazon.com/s?k=mustafa+mahmoud&i=stripbooks&dc&geniuslink=true&tag=rankercom-20&ref=a9_sc_1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li><a href="https://www.amazon.com/s?k=mustafa+mahmoud&i=stripbooks&dc&geniuslink=true&tag=rankercom-20&ref=a9_sc_1" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="https://www.amazon.com/s?k=mustafa+mahmoud&i=stripbooks&dc&geniuslink=true&tag=rankercom-20&ref=a9_sc_1" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="author-member" data-animation="fadeInUp" data-delay="600">
+                                <div class="author-image">
+                                    <img class="img-fluid" src="images/ghitani.jpg" alt="Gamal Al-Ghitani">
+                                </div>
+                                <div class="author-overlay">
+                                    <div class="author-info">
+                                        <h4>Gamal Al-Ghitani</h4><span>Egyptian Author of Historical and Political novels</span>
+                                        <ul class="author-social">
+                                            <li><a href="https://www.amazon.com/s?k=Gamal+Al-Ghitani&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li><a href="https://www.amazon.com/s?k=Gamal+Al-Ghitani&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="https://www.amazon.com/s?k=Gamal+Al-Ghitani&i=stripbooks&geniuslink=true&tag=rankercom-20&ref=nb_sb_noss" target="_blank"><i class="fab fa-linkedin-in"></i></a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="author-member" data-animation="fadeInUp" data-delay="900">
+                                <div class="author-image">
+                                    <img class="img-fluid" src="images/3akad.jpg" alt="Abbas Al-Aqqad">
+                                </div>
+                                <div class="author-overlay">
+                                    <div class="author-info">
+                                        <h4>Abbas Al-Aqqad</h4><span> Egyptian Journalist, Poet and Literary critic</span>
+                                        <ul class="author-social">
+                                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Best selling Section ======= -->
+
+        <section id="work" class="work-mf sect-pt4 route">
+            <div class="container">
+                <div class="title text-center">
+                    <h2 class="small" data-bigletter="B">Best Selling</h2>
+                    <h4 class="sec-sub mx-auto">People's choice</h4>
+                </div>
+                <div class="container-fluid">
+                    <div class="row py-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="max-width: 500px;">
+                                <a href="images/100.jpg" data-gall="portfolioGallery" class="venobox vbox-item">
+                                    <div class="work-img">
+                                        <img class="card-img" src="images/100.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="work-content">
+                                    <h2 class="w-title">El zeny Barakat</h2>
+                                    <hr>
+                                    <p class="w-more">This novel is set in the early 16th century in the Egypt of the Mamluk dynasty.</p>
+                                    <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="max-width: 500px;">
+                                <a href="images/download (4).jpg" data-gall="portfolioGallery" class="venobox vbox-item">
+                                    <div class="work-img">
+                                        <img class="card-img" src="images/download (4).jpg" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="work-content">
+                                    <h2 class="w-title">The password</h2>
+                                    <hr>
+                                    <p class="w-more">It talks about the hardest time that we live in and the corruption of the society.</p>
+                                    <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="max-width: 500px;">
+                                <a href="images/download (5).jpg" data-gall="portfolioGallery" class="venobox vbox-item">
+                                    <div class="work-img">
+                                        <img class="card-img" src="images/download (5).jpg" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="work-content">
+                                    <h2 class="w-title">The devil</h2>
+                                    <hr>
+                                    <p class="w-more">It talks about origen of the evil in the different of the era.</p>
+                                    <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/32.jpg" alt="" style="width:100%">
+                                <h2 class="font">Adventure</h2>
+                                <hr>
+                                <p>Drive savely.</p>
+                                <p class="price">150 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/34.jpg" alt="" style="width:100%">
+                                <h2 class="font">Farming</h2>
+                                <hr>
+                                <p>Plant a new tree.</p>
+                                <p class="price">100 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/29.jpg" alt="" style="width:100%">
+                                <h2 class="font">Programming</h2>
+                                <hr>
+                                <p>Learn new language.</p>
+                                <p class="price">150 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/28.jpg" alt="" style="width:100%">
+                                <h2 class="font">Farming</h2>
+                                <hr>
+                                <p>Learn new skill.</p>
+                                <p class="price">150 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/27.webp" alt="" style="width:100%">
+                                <h2 class="font">Human</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p class="price"><span class="dash">200 EGP</span>150 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-lg-2 col-sm-12 mb-5">
+                            <div class="Product" style="width: 10rem;">
+                                <img src="images/36.jpg" alt="" style="width:100%">
+                                <h2 class="font">Sport</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p class="price">125 EGP</p>
+                                <a class="btn btn-success submit px-3" href="cart.html" target="_self" role="button"><i class="fa fa-shopping-cart"></i> Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END-->
+
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="py-5">
+            <div class="container text-center">
+                <div class="title text-center">
+                    <h2 class="small" data-bigletter="M">Membership</h2>
+                    <h4 class="sec-sub mx-auto">We provide the best books.</h4>
+                </div>
+                <div class="row py-5">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                        <div class="price-item text-left p-4 mb-5">
+                            <h4 class="mb-4 mt-3">Starter </h4>
+                            <h2 class="pl-3 py-4"> 9</h2>
+                            <div class="line"></div>
+                            <ul class="list-unstyled py-4">
+                                <li>Few Books</li>
+                                <li>7 Days</li>
+                                <li>Limited Borrow</li>
+                            </ul>
+                            <a href="#" class="btn btn-p mb-4">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="price-item  text-left p-4 mb-5 ">
+                            <h4 class="mb-4 mt-3">Silver</h4>
+                            <h2 class="pl-3 py-4"> 19</h2>
+                            <div class="line"></div>
+                            <ul class="list-unstyled py-4">
+                                <li>50 Books</li>
+                                <li>1 Month</li>
+                                <li>100 Borrow</li>
+                            </ul>
+                            <a href="#" class="btn btn-p mb-4">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 scale">
+                        <div class="price-item gold-card  text-left p-4 mb-5 ">
+                            <div class="gold-part d-flex justify-content-between">
+                                <h4 class="mb-4 mt-3 ">Gold</h4>
+                                <p class="gold-p d-flex align-items-center mt-3">Best Value</p>
+                            </div>
+
+                            <h2 class="pl-3 py-4 theme-color gold"> 29</h2>
+                            <div class="line"></div>
+                            <ul class="list-unstyled py-4">
+                                <li>500 Books</li>
+                                <li>1 Year</li>
+                                <li>1000 Borrow</li>
+                            </ul>
+                            <a href="#" class="btn btn-p mb-4">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="price-item  text-left p-4 mb-5 ">
+                            <h4 class="mb-4 mt-3">Platinum</h4>
+                            <h2 class="pl-3 py-4"> 299</h2>
+                            <div class="line"></div>
+                            <ul class="list-unstyled py-4">
+                                <li>Unimited Books</li>
+                                <li>For Ever</li>
+                                <li>Unimited Borrow</li>
+                            </ul>
+                            <a href="#" class="btn btn-p mb-4">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Carousel Section ======= -->
+        <section id="caro" class=" text-center">
+            <div class="container py-5  ">
+                <h6 class="pb-3 ">HAPPY CUSTOMERS</h6>
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item py-3  active">
+                            <div class="cont mx-auto my-5 px-5 position-relative py-4">
+                                <div class="caro-img mx-auto position-absolute">
+                                    <img src="images/11.webp" class="img-fluid rounded-circle" alt="">
+                                </div>
+                                <h2 class="pt-5">Marissa Mayer</h2>
+                                <h6 class="py-2 ">CEO, Yahoo</h6>
+                                <p class="mx-auto pb-5 pt-3 ">Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem cupiditate quia? Ut iste deleniti.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-3">
+                            <div class="cont mx-auto my-5 px-5 position-relative py-4">
+                                <div class="caro-img mx-auto position-absolute">
+                                    <img src="images/13.webp" class="img-fluid rounded-circle" alt="">
+                                </div>
+                                <h2 class="pt-5">Natally Brox</h2>
+                                <h6 class="py-2 ">Employee at Google</h6>
+                                <p class="mx-auto pb-5 pt-3 ">Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem cupiditate quia? Ut iste deleniti.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev  my-auto ml-5" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="fas fa-arrow-left caro-ind1 fa-2x" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next my-auto mr-5" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="fas fa-arrow-right caro-ind2 fa-2x " aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Contact Section ======= -->
+        <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(images/home4.jpg)">
+            <div class="overlay-itro">
+                <div class="intro-content display-table">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="contact-mf">
+                                        <div id="contact" class="box-shadow-full">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="title1 text-left">
+                                                        <h2 class="small1">Send a Message</h2>
+                                                    </div>
+                                                    <div>
+                                                        <div class="form">
+                                                            <div class="row">
+                                                                <div class="col-md-12 mb-3">
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="entry.503035918" class="form-control" id="nameField" placeholder="Your Name" data-msg="Please enter at least 4 chars">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12 mb-3">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="form-control" name="entry.290174329" id="emailField" placeholder="Your Email" data-msg="Please enter a valid email">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12 mb-3">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="form-control" name="entry.174733709" id="subjectField" placeholder="Subject" data-msg="Please enter at least 8 chars of subject">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-group">
+                                                                        <textarea class="form-control" name="entry.795784998" id="messageField" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-12 text-center">
+                                                                    <button class="btn btn-primary" onclick="postToGoogle()">Send Message</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="title1 text-left">
+                                                        <h2 class="small1">Get in Touch</h2>
+                                                    </div>
+                                                    <div class="more-info">
+                                                        <p class="lead">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        </p>
+                                                        <ul class="fa">
+                                                            <li><span class="fa fa-location-arrow"></span> 329 WASHINGTON ST BOSTON, MA 02108
+                                                            </li>
+                                                            <li><span class="fa fa-phone-square"></span> (617) 557-0089</li>
+                                                            <li><span class="fa fa-mail-bulk"></span> contact@example.com</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="socials">
+                                                        <ul>
+                                                            <li><a href="#"><span><i
+                                                                class="fab fa-facebook-square"></i></span></a></li>
+                                                            <li><a href="#"><span><i
+                                                                class="fab fa-instagram-square"></i></span></a></li>
+                                                            <li><a href="#"><span><i
+                                                                class="fab fa-twitter-square"></i></span></a></li>
+                                                            <li><a href="#"><span><i
+                                                                class="fab fa-pinterest-square"></i></span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">© Copyright <strong>BookStore</strong>. All Rights Reserved</p>
+                        <div class="credits">
+                            Designed by <a href="#">TeamMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.js"></script>
+</body>
+
+</html>
